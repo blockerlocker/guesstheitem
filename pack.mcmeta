@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Guess the hidden item by revealing one pixel at a time.",
+    "min_format": 111,
+    "max_format": 111
+  }
+}

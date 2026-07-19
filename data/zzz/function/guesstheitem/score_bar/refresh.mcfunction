@@ -1,0 +1,34 @@
+data modify entity @s text.extra[].color set value green
+
+execute if score #score operator matches ..31 run data modify entity @s text.extra[31].color set value dark_gray
+execute if score #score operator matches ..30 run data modify entity @s text.extra[30].color set value dark_gray
+execute if score #score operator matches ..29 run data modify entity @s text.extra[29].color set value dark_gray
+execute if score #score operator matches ..28 run data modify entity @s text.extra[28].color set value dark_gray
+execute if score #score operator matches ..27 run data modify entity @s text.extra[27].color set value dark_gray
+execute if score #score operator matches ..26 run data modify entity @s text.extra[26].color set value dark_gray
+execute if score #score operator matches ..25 run data modify entity @s text.extra[25].color set value dark_gray
+execute if score #score operator matches ..24 run data modify entity @s text.extra[24].color set value dark_gray
+execute if score #score operator matches ..23 run data modify entity @s text.extra[23].color set value dark_gray
+execute if score #score operator matches ..22 run data modify entity @s text.extra[22].color set value dark_gray
+execute if score #score operator matches ..21 run data modify entity @s text.extra[21].color set value dark_gray
+execute if score #score operator matches ..20 run data modify entity @s text.extra[20].color set value dark_gray
+execute if score #score operator matches ..19 run data modify entity @s text.extra[19].color set value dark_gray
+execute if score #score operator matches ..18 run data modify entity @s text.extra[18].color set value dark_gray
+execute if score #score operator matches ..17 run data modify entity @s text.extra[17].color set value dark_gray
+execute if score #score operator matches ..16 run data modify entity @s text.extra[16].color set value dark_gray
+execute if score #score operator matches ..15 run data modify entity @s text.extra[15].color set value dark_gray
+execute if score #score operator matches ..14 run data modify entity @s text.extra[14].color set value dark_gray
+execute if score #score operator matches ..13 run data modify entity @s text.extra[13].color set value dark_gray
+execute if score #score operator matches ..12 run data modify entity @s text.extra[12].color set value dark_gray
+execute if score #score operator matches ..11 run data modify entity @s text.extra[11].color set value dark_gray
+execute if score #score operator matches ..10 run data modify entity @s text.extra[10].color set value dark_gray
+execute if score #score operator matches ..9 run data modify entity @s text.extra[9].color set value dark_gray
+execute if score #score operator matches ..8 run data modify entity @s text.extra[8].color set value dark_gray
+execute if score #score operator matches ..7 run data modify entity @s text.extra[7].color set value dark_gray
+execute if score #score operator matches ..6 run data modify entity @s text.extra[6].color set value dark_gray
+execute if score #score operator matches ..5 run data modify entity @s text.extra[5].color set value dark_gray
+execute if score #score operator matches ..4 run data modify entity @s text.extra[4].color set value dark_gray
+execute if score #score operator matches ..3 run data modify entity @s text.extra[3].color set value dark_gray
+execute if score #score operator matches ..2 run data modify entity @s text.extra[2].color set value dark_gray
+execute if score #score operator matches ..1 run data modify entity @s text.extra[1].color set value dark_gray
+execute if score #score operator matches ..0 run data modify entity @s text.extra[0].color set value dark_gray

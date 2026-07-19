@@ -1,0 +1,2 @@
+tellraw @s {text:"\nSome items appear identical to others, and have been disabled. You must instead another item that looks like this one (ie; use Glass Panes instead of Glass blocks).\n\nDisabled items include Glass Blocks, all Waxed Copper variants, Wood blocks, Hyphae blocks, and Infested blocks.",color:aqua}
+execute at @s run playsound block.note_block.bass ui @s
