@@ -6,9 +6,6 @@ tag @e[type=marker,tag=roll] remove setblock
 
 tag @e[type=marker,tag=roll,limit=16,sort=furthest] add setblock
 
-execute at @e[type=marker,tag=setblock,limit=4,sort=random] run setblock ~ ~ ~ bedrock
-
-execute as @e[type=marker,tag=roll] at @s if block ~ ~ ~ bedrock run kill @s
-
+execute as @e[type=marker,tag=setblock,limit=4,sort=random] at @s run function zzz:guesstheitem/game/roll_marker_delete
 
 execute unless entity @e[type=marker,tag=roll] run function zzz:guesstheitem/game/start
