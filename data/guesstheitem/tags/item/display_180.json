@@ -1,5 +1,17 @@
 {
     "values": [
-        "observer"
+        "observer",
+        "crafter",
+        "dispenser",
+        "carved_pumpkin",
+        "jack_o_lantern",
+        "blast_furnace",
+        "furnace",
+        "smoker",
+        "loom",
+        "bee_nest",
+        "beehive",
+        "chiseled_bookshelf",
+        "dropper"
     ]
 }
