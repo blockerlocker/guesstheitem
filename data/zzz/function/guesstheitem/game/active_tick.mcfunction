@@ -11,4 +11,3 @@ execute if score #score operator matches ..0 run function zzz:guesstheitem/game/
 
 
 execute as @e[type=interaction,tag=submit,predicate=bldp:interaction_interact] run function zzz:guesstheitem/item_submission/interact
-execute as @e[type=interaction,tag=submit,predicate=bldp:interaction_interact] run data remove entity @s interaction
