@@ -1,6 +1,6 @@
 execute as @e[type=item_display,tag=guesstheitem] at @s run function zzz:guesstheitem/item_display/tick
 
-scoreboard players set #score operator 32
+scoreboard players set #score operator 33
 scoreboard players operation #score operator -= #pixel_penalty operator
 scoreboard players operation #score operator -= #guess_penalty operator
 
