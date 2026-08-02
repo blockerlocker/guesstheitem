@@ -1,5 +1,5 @@
 execute on target if items entity @s weapon.mainhand #guesstheitem:texture_duplicate run return run function zzz:guesstheitem/item_submission/texture_duplicate
-execute on target unless items entity @s weapon.mainhand #guesstheitem:all_items run return fail
+execute on target unless items entity @s weapon.mainhand #guesstheitem:all_items run return run function zzz:guesstheitem/item_submission/unsupported_item
 
 tag @a remove submit_target
 
