@@ -1,6 +1,6 @@
 {
     "values": [
-        "abandoned_campsite_map",
+        "abandoned_camp_map",
         "acacia_boat",
         "acacia_button",
         "acacia_chest_boat",
@@ -21,7 +21,7 @@
         "amethyst_block",
         "amethyst_cluster",
         "amethyst_shard",
-        "ancient_city_map",
+        "buried_ancient_city_map",
         "ancient_debris",
         "andesite_slab",
         "andesite_stairs",
@@ -631,7 +631,6 @@
         "iron_shovel",
         "iron_sword",
         "item_frame",
-        "jigsaw",
         "jukebox",
         "jungle_boat",
         "jungle_button",
@@ -766,7 +765,7 @@
         "milk_bucket",
         "minecart",
         "miner_pottery_sherd",
-        "mineshaft_map",
+        "buried_mineshaft_map",
         "mojang_banner_pattern",
         "mooshroom_spawn_egg",
         "moss_block",
