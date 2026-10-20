@@ -1,4 +1,4 @@
-Made for Minecraft 26.3
+Made for Minecraft 26.4
 
 This data pack allows you to play a minigame where you have to guess a random item by revealing its texture one pixel at a time. The fewer pixels you reveal, and the fewer incorrect guesses you make, the higher your score.
 
