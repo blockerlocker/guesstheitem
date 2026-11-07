@@ -9,7 +9,7 @@ When the game is active, you reveal pixels by simply breaking the bedrock blocks
 ## Setup Commands
 | Command | Description |
 | --- | --- |
-| `/function guesstheitem:summon/item_display` | This summons the item display that serves as the main gameplay area. When the game starts, it will be covered in a layer of bedrock. It automatically aligns itself to the block grid when summoned, and must be facing perfectly north, south, east, or west to function (defaults to south). If one already exists, it is deleted and replaced with the new one. |
+| `/function guesstheitem:summon/item_display` | This summons the item display that serves as the main gameplay area. When the game starts, it will be covered in a layer of bedrock. It automatically aligns itself to the block grid when summoned, and faces south. If one already exists, it is deleted and replaced with the new one. |
 | `/function guesstheitem:summon/score_bar` | This summons the score bar that shows how many points the player has left. Unlike the item display, it does not have to be aligned to the block grid or rotated in any particular way. If one already exists, it is deleted and replaced with the new one. |
 | `/function guesstheitem:summon/item_submission` | This summons the item submission box that is used to make a guess. It does not need to be aligned to the block grid, but it does need to be perfectly facing north, south, east, or west to function correctly (defaults to south). You right click inside the box to submit a guess. If one already exists, it is deleted and replaced with the new one. |
 | `/function guesstheitem:delete/item_display` | Deletes the item display. |
