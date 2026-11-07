@@ -1,0 +1,4 @@
+execute if items entity @s contents #guesstheitem:display_none run data merge entity @s {item_display:none,transformation:{scale:[16,16,0.001],left_rotation:[0,1,0,0]}}
+execute if items entity @s contents #guesstheitem:display_180 run data merge entity @s {item_display:none,transformation:{scale:[16,16,0.001],left_rotation:[0,0,0,1]}}
+execute if items entity @s contents #guesstheitem:display_gui run data merge entity @s {item_display:gui,transformation:{scale:[16,16,0.001],left_rotation:[0,1,0,0]}}
+execute if items entity @s contents #guesstheitem:display_bottom run data merge entity @s {item_display:none,transformation:{scale:[16,0.001,16],left_rotation:[0,0.707,-0.707,0]}}

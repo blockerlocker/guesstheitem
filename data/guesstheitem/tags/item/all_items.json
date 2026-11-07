@@ -2,6 +2,7 @@
     "values": [
         "#guesstheitem:display_none",
         "#guesstheitem:display_gui",
-        "#guesstheitem:display_180"
+        "#guesstheitem:display_180",
+        "#guesstheitem:display_bottom"
     ]
 }

@@ -9,12 +9,12 @@ When the game is active, you reveal pixels by simply breaking the bedrock blocks
 ## Setup Commands
 | Command | Description |
 | --- | --- |
-| `/function zzz:guesstheitem/item_display/summon` | This summons the item display that serves as the main gameplay area. When the game starts, it will be covered in a layer of bedrock. It automatically aligns itself to the block grid when summoned, and must be facing perfectly north, south, east, or west to function (defaults to south). If one already exists, it is deleted and replaced with the new one. |
-| `/function zzz:guesstheitem/score_bar/summon` | This summons the score bar that shows how many points the player has left. Unlike the item display, it does not have to be aligned to the block grid or rotated in any particular way. If one already exists, it is deleted and replaced with the new one. |
-| `/function zzz:guesstheitem/item_submission/summon` | This summons the item submission box that is used to make a guess. It does not need to be aligned to the block grid, but it does need to be perfectly facing north, south, east, or west to function correctly (defaults to south). You right click inside the box to submit a guess. If one already exists, it is deleted and replaced with the new one. |
-| `/function zzz:guesstheitem/item_display/delete` | Deletes the item display. |
-| `/function zzz:guesstheitem/score_bar/delete` | Deletes the score bar. |
-| `/function zzz:guesstheitem/item_submission/summon` | Deletes the item submission box. |
+| `/function guesstheitem:summon/item_display` | This summons the item display that serves as the main gameplay area. When the game starts, it will be covered in a layer of bedrock. It automatically aligns itself to the block grid when summoned, and must be facing perfectly north, south, east, or west to function (defaults to south). If one already exists, it is deleted and replaced with the new one. |
+| `/function guesstheitem:summon/score_bar` | This summons the score bar that shows how many points the player has left. Unlike the item display, it does not have to be aligned to the block grid or rotated in any particular way. If one already exists, it is deleted and replaced with the new one. |
+| `/function guesstheitem:summon/item_submission` | This summons the item submission box that is used to make a guess. It does not need to be aligned to the block grid, but it does need to be perfectly facing north, south, east, or west to function correctly (defaults to south). You right click inside the box to submit a guess. If one already exists, it is deleted and replaced with the new one. |
+| `/function guesstheitem:delete/item_display` | Deletes the item display. |
+| `/function guesstheitem:delete/score_bar` | Deletes the score bar. |
+| `/function guesstheitem:delete/item_submission` | Deletes the item submission box. |
 
 ## Gameplay Commands
 | Command | Description |
@@ -22,3 +22,10 @@ When the game is active, you reveal pixels by simply breaking the bedrock blocks
 | `/function guesstheitem:start` | Starts the game with a rolling animation and a bedrock spreading animation. |
 | `/function guesstheitem:quick_start` | Starts the game instantly with no animation. |
 | `/function guesstheitem:end` | Ends the game. |
+
+## Debug Commands
+| Command | Description |
+| --- | --- |
+| `/function guesstheitem:debug/random_item` | Ends the game, clears the board, and displays a random item. |
+| `/function guesstheitem:debug/set_item` | Ends the game, clears the board, and displays the item the player is holding in their mainhand. |
+| `/function guesstheitem:debug/set_item_start` | Like `debug/set_item` except it starts the game. |
